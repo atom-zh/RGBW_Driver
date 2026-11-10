@@ -43,7 +43,7 @@
 				"name": "*.tar"
 			}
 		],
-		"projectName": "SPI_DMA",
+		"projectName": "RGBW_Driver",
 		"architecture": "RISC-V",
 		"projectType": "c"
 	},
@@ -339,7 +339,7 @@
 	"flashConfig": {
 		"mcutype": "CH32V00x",
 		"address": "0x08000000",
-		"target_path": "obj\\SPI_DMA.hex",
+		"target_path": "obj\\RGBW_Driver.hex",
 		"clkSpeed": "High",
 		"debug_interface_mode": "1-wire serial",
 		"erase": true,
@@ -420,8 +420,8 @@
 			"showDebugOutputTimestamps": true
 		},
 		"reserve": {
-			"PROGRAM_NAME": "obj/SPI_DMA.elf",
-			"PROJECT_ATTR": "SPI_DMA",
+			"PROGRAM_NAME": "obj/RGBW_Driver.elf",
+			"PROJECT_ATTR": "RGBW_Driver",
 			"PROJECT_BUILD_CONFIG_AUTO_ATTR": true,
 			"PROJECT_BUILD_CONFIG_ID_ATTR": "",
 			"ATTR_BUILD_BEFORE_LAUNCH_ATTR": 2,
